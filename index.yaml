@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  postgres:
+  - apiVersion: v1
+    appVersion: 9.6.5
+    created: "2020-08-03T12:40:27.617521429Z"
+    description: A Helm chart for postgres
+    digest: 1e7215dcdc18f8c7c0b457e26b7ffdb365c83d96496875ac0a5e5880415fc4d8
+    name: postgres
+    urls:
+    - postgres-9.6.5.tgz
+    version: 9.6.5
+generated: "2020-08-03T12:40:27.616980775Z"
