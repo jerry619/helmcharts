@@ -1,13 +1,23 @@
 apiVersion: v1
 entries:
+  nodejsapp:
+  - apiVersion: v1
+    appVersion: "12"
+    created: "2020-08-03T13:44:35.941651481Z"
+    description: A Helm chart for Kubernetes
+    digest: b6495858a7d3a4dd8da98c82ae7012821be9486fd1b17682bec4ff0a45fa91c9
+    name: nodejsapp
+    urls:
+    - nodejsapp-0.1.0.tgz
+    version: 0.1.0
   postgres:
   - apiVersion: v1
     appVersion: 9.6.5
-    created: "2020-08-03T12:40:27.617521429Z"
+    created: "2020-08-03T13:44:35.942195075Z"
     description: A Helm chart for postgres
     digest: 1e7215dcdc18f8c7c0b457e26b7ffdb365c83d96496875ac0a5e5880415fc4d8
     name: postgres
     urls:
     - postgres-9.6.5.tgz
     version: 9.6.5
-generated: "2020-08-03T12:40:27.616980775Z"
+generated: "2020-08-03T13:44:35.940493416Z"
