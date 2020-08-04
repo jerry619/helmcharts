@@ -1,11 +1,43 @@
 apiVersion: v1
 entries:
+  jenkins:
+  - apiVersion: v1
+    appVersion: lts
+    created: "2020-08-04T23:49:23.885940481Z"
+    description: Open source continuous integration server. It supports multiple SCM
+      tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
+      Maven-based projects as well as arbitrary scripts.
+    digest: 2f07185a429a3333b0362b630f8ab423daf9502271c44895f39aa733ec927180
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: viglesias@google.com
+      name: viglesiasce
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: garridomota@gmail.com
+      name: mogaal
+    - email: wmcdona89@gmail.com
+      name: wmcdona89
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    - https://github.com/maorfr/kube-tasks
+    - https://github.com/jenkinsci/configuration-as-code-plugin
+    urls:
+    - jenkins-2.5.0.tgz
+    version: 2.5.0
   nodejsapp:
   - apiVersion: v1
     appVersion: "12"
-    created: "2020-08-03T13:44:35.941651481Z"
+    created: "2020-08-04T23:49:23.90778224Z"
     description: A Helm chart for Kubernetes
-    digest: b6495858a7d3a4dd8da98c82ae7012821be9486fd1b17682bec4ff0a45fa91c9
+    digest: af874a93bd1cf543f415efa303a8e3d379a7a13aa13fe7ffe3944cbb260fab97
     name: nodejsapp
     urls:
     - nodejsapp-0.1.0.tgz
@@ -13,11 +45,11 @@ entries:
   postgres:
   - apiVersion: v1
     appVersion: 9.6.5
-    created: "2020-08-03T13:44:35.942195075Z"
+    created: "2020-08-04T23:49:23.910017414Z"
     description: A Helm chart for postgres
     digest: 1e7215dcdc18f8c7c0b457e26b7ffdb365c83d96496875ac0a5e5880415fc4d8
     name: postgres
     urls:
     - postgres-9.6.5.tgz
     version: 9.6.5
-generated: "2020-08-03T13:44:35.940493416Z"
+generated: "2020-08-04T23:49:23.881267429Z"
